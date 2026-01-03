@@ -81,22 +81,22 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'omnifly.in.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', '5bb6e402dd86fb8774690a5f4a65d2a2c0c04877') #use my api so i can make some money 🤣..just kidding guys..mai already aamir hoon🥱 
-SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'omnifly.in.net')
-SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '5bb6e402dd86fb8774690a5f4a65d2a2c0c04877')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'arolinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'dadf03196c59e3cefae13a8db3e4e78d160ce7a9') #use my api so i can make some money 🤣..just kidding guys..mai already aamir hoon🥱 
+SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'arolinks.com')
+SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', 'dadf03196c59e3cefae13a8db3e4e78d160ce7a9')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '').split()] #Add a channel ID here. When you send any file to this channel, the bot will delete the file details from the MongoDB 
 MAX_B_TN = environ.get("MAX_B_TN", "20")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/RS_Movie')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/RS_Movie')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/yhrdhi/4')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Faiz_Movies')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Faiz_Movies')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/howtoopenshortnerlinks/17')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Kʏᴀ ʀᴇ Bʜɪᴋᴍᴀɴɢᴀ 😑,Kʏᴀ ᴅᴇᴋʜ ʀᴀʜᴀ ʜᴀɪ ?')
 
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001846555827'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001799217816'))
 VERIFY_REQ_CHNL = int(environ.get('VERIFY_REQ_CHNL', '-1002246762613'))
 NEW_USER_LOG = int(environ.get('NEW_USER_LOG', '-1002236149210'))
 BIN_CHNL = int(environ.get('BIN_CHNL', '-1002184588707'))
